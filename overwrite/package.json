@@ -12,7 +12,7 @@
     "version": ""
   },
   "dependencies": {
-    "hexo": "github:hexojs/hexo",
+    "hexo": "github:dailyrandomphoto/hexo#fix-moment-locale",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
