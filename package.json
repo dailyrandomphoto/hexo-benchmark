@@ -1,0 +1,24 @@
+{
+  "name": "hexo-benchmark-test-site",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "g": "node --max_old_space_size=1024 ./node_modules/.bin/hexo g -c 10 --debug",
+    "g-inspect": "node --inspect-brk=0.0.0.0:9229 --max_old_space_size=1024 ./node_modules/.bin/hexo g -c 10 --debug",
+    "c": "hexo clean",
+    "all": "npm run c && npm run g"
+  },
+  "hexo": {
+    "version": ""
+  },
+  "dependencies": {
+    "hexo": "github:hexojs/hexo",
+    "hexo-generator-archive": "^1.0.0",
+    "hexo-generator-category": "^1.0.0",
+    "hexo-generator-index": "^1.0.0",
+    "hexo-generator-tag": "^1.0.0",
+    "hexo-renderer-ejs": "^1.0.0",
+    "hexo-renderer-marked": "^2.0.0",
+    "hexo-renderer-stylus": "^1.0.0"
+  }
+}
