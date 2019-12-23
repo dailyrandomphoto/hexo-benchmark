@@ -1,0 +1,33 @@
+language: node_js
+
+addons:
+  apt:
+    packages:
+    - time
+
+cache: false
+
+node_js:
+  - "8"
+  - "10"
+  - "12"
+  - "13"
+
+script:
+  - ./benchmark.sh
+
+# deploy:
+#   - provider: pages
+#     project_name: hexo-benchmark
+#     skip_cleanup: true
+#     local_dir: dummy/benchmark-test-site/benchmark-data
+#     repo: dailyrandomphoto/hexo-benchmark-data
+#     target_branch: master
+#     github_token: $GITHUB_TOKEN
+#     keep_history: true
+#     committer_from_gh: true
+#     name: dailyrandomphoto
+#     email: dailyrandomphoto@gmail.com
+#     commit_message: "continuous collecting"
+#     # on:
+#     #   branch: master
