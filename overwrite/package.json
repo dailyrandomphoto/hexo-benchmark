@@ -12,7 +12,7 @@
     "version": ""
   },
   "dependencies": {
-    "hexo": "github:hexojs/hexo#75fea56bd88e5d3702c0d3813836cd8392849dc2",
+    "hexo": "github:dailyrandomphoto/hexo#cdea2aaf1b5bd905bd92e47375dc252aa24f837f",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
