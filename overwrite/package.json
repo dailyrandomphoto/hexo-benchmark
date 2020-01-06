@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "g": "node --max_old_space_size=1024 ./node_modules/.bin/hexo g -c 10 --debug",
+    "g": "node --max_old_space_size=2048 ./node_modules/.bin/hexo g -c 10 --debug",
     "g-inspect": "node --inspect-brk=0.0.0.0:9229 --max_old_space_size=1024 ./node_modules/.bin/hexo g -c 10 --debug",
     "c": "hexo clean",
     "all": "npm run c && npm run g"
