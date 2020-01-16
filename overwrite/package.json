@@ -12,7 +12,7 @@
     "version": ""
   },
   "dependencies": {
-    "hexo": "github:hexojs/hexo",
+    "hexo": "github:hexojs/hexo#584b093b66f6f1d690dc98abee4c97c0b6029e46",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",

@@ -52,9 +52,9 @@ mkdir -p dummy && cd dummy && rm -rf benchmark-test-site
 git clone -b benchmark-test-site-300 https://github.com/dailyrandomphoto/hexo-benchmark.git benchmark-test-site --depth=1 --quiet
 cd benchmark-test-site
 
-echo "- Import 900 posts"
-cp -a source/_posts/hexo-many-posts source/_posts/hexo-many-posts-2
-cp -a source/_posts/hexo-many-posts source/_posts/hexo-many-posts-3
+# echo "- Import 900 posts"
+# cp -a source/_posts/hexo-many-posts source/_posts/hexo-many-posts-2
+# cp -a source/_posts/hexo-many-posts source/_posts/hexo-many-posts-3
 
 echo "- Replace package.json and _config.yml"
 cp -rf ../../overwrite/* ./
